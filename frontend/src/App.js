@@ -1,10 +1,10 @@
-import Button from "react-bootstrap/Button";
-
+// import Button from "react-bootstrap/Button";
+import NavBar from "./Navbar/Navbar";
 function App() {
   return (
     <div>
-      <div>hello world</div>
-      <Button>글쓰기</Button>
+      <NavBar/>
+
     </div>
   );
 }

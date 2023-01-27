@@ -1,0 +1,11 @@
+.navbar {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+  }
+
+.custom_input{
+   width: 400px;
+    
+}
