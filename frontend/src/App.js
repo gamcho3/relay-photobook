@@ -3,8 +3,8 @@ import NavBar from "./Navbar/Navbar";
 function App() {
   return (
     <div>
-      <NavBar/>
-
+      <NavBar />
+      릴레이북 잘 될까요
     </div>
   );
 }
