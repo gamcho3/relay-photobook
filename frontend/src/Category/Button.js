@@ -1,17 +1,20 @@
 import styled from "styled-components";
 
-// Button.jsx
 
-function Button({ children }) {
-  return <StyledButton onClick={() => console.log("hello")}>{children}</StyledButton>;
+
+
+
+function Button({ children, index , activeButton,state}) {
+  
+  return <StyledButton onClick={() => activeButton(index)} clicked={state}>{children}</StyledButton>;
 }
 
 export default Button;
 
 const StyledButton = styled.button`
   border-radius: var(--button-radius, 30px);
-  background: var(--button-bg-color, #ffffff);
-  color: var(--button-color, #000000);
+  background: ${props => props.clicked ? "black" : "white" };
+  color:  ${props => props.clicked ? "white" : "black" };
   padding: var(--button-padding, 8px 16px);
   border-color: #dcdcdc;
   border-style: solid;
