@@ -3,6 +3,7 @@
 import NavBar from "./Navbar/Navbar";
 import Category from "./Category/Category";
 import Main from "./Main/Main";
+import SimpleSlider from "./Main/Slider";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <div className="color:yellow">릴레이북 잘 될까요</div>
       </NavBar>
       <Main>
-      <Category />
+        <Category />
+        <SimpleSlider />
       </Main>
     </div>
   );
