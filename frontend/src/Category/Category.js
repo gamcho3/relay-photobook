@@ -12,7 +12,7 @@ const Category = () => {
 };
 
 const CustomCategory = styled.div`
-  background-color: red;
+  background-color: black;
   padding: 10px 10px 10px 10px;
 `;
 export default Category;
