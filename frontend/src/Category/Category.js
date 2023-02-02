@@ -7,7 +7,7 @@ const Category = () => {
   return (
     <CustomCategory>
       {dummyData["category"].map((value, index) => (
-        <Button>{value}</Button>
+        <Button key={`btn${index}`}>{value}</Button>
       ))}
       <Button>전체</Button>
       <Button>판타지</Button>
