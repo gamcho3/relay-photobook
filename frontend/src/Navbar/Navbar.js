@@ -10,7 +10,9 @@ const NavBar = (props) => {
       </div>
       <div>
         <button>다크모드</button>
-        <button>마이페이지</button>
+        <button>
+          d<i class="fa-light fa-user"></i>
+        </button>
       </div>
     </div>
   );
