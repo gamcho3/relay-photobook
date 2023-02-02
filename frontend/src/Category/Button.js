@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 // Button.jsx
 
-function Button({ disabled, children }) {
-  return <StyledButton disabled={disabled}>{children}</StyledButton>;
+function Button({ children }) {
+  return <StyledButton onClick={() => console.log("hello")}>{children}</StyledButton>;
 }
 
 export default Button;
