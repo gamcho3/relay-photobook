@@ -1,15 +1,3 @@
 .bookView {
   display: flex;
 }
-.bookCard {
-  background-color: #f3f3f3;
-  box-sizing: border-box;
-  width: 312px;
-  height: 215px;
-  border: 1px solid #000000;
-  position: relative;
-}
-
-.bookCover {
-  background: #d9d9d9;
-}

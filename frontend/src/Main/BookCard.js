@@ -1,21 +1,36 @@
 import React from "react";
 import "./BookCard.css";
-
+import StarIcon from "../assets/Star.svg";
+import viewIcon from "../assets/view.png";
+import bookCover from "../assets/react_image.jpeg";
 const BookCard = () => {
   return (
     <>
       <div className="bookCard">
-        소설제목보이는카드컨테이너
-        <div className="bookCover">책표지 보이는 곳</div>
+        <div className="bookCover">
+          <img src={bookCover} alt="bookCover"></img>
+        </div>
         <div className="bookInfo">
-          <div className="bookTitle">책제목</div>
-          <div className="bookAuthor">최초작가 이름</div>
-          <div className="bookOtherAuthor">외 5명</div>
           <div>
-            <div className="bookRate">별점</div>
-            <div className="bookViewCount">조회수</div>
+            <div className="bookTitle">책제목</div>
+            <div className="bookAuthor">최초작가 이름</div>
+            <div className="bookOtherAuthor">외 5명</div>
           </div>
-          <div className="bookGenre">#장르</div>
+
+          <div>
+            <div className="bookRateAndViewContainer">
+              <div className="bookContainer">
+                <img src={StarIcon} alt="star"></img>
+                <div className="bookRate">4.5</div>
+              </div>
+              <div className="bookContainer">
+                <img src={viewIcon} alt="view"></img>
+                <div className="bookViewCount">1.5만</div>
+              </div>
+            </div>
+
+            <div className="bookGenre">#장르 #판타지 #로맨지</div>
+          </div>
         </div>
       </div>
     </>

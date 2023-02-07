@@ -1,12 +1,96 @@
 .bookTitle {
   width: 142px;
   height: 18px;
-
   font-family: "Gmarket Sans TTF";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 18px;
-
+  margin-bottom: 14px;
   color: #000000;
+}
+
+.bookCard {
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  width: 312px;
+  height: 215px;
+  border: 1px solid #000000;
+  position: relative;
+  display: flex;
+  padding: 16px 16px;
+}
+
+.bookCover {
+  background: #d9d9d9;
+  margin-right: 14px;
+}
+
+.bookCover img {
+  background-size: contain;
+}
+
+.bookAuthor {
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+
+.bookOtherAuthor {
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.bookInfo {
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bookRateAndViewContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.bookRate {
+  margin-left: 4px;
+  margin-right: 14px;
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.bookViewCount {
+  margin-left: 4px;
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.bookGenre {
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #5e5e5e;
+}
+
+.bookContainer {
+  display: flex;
+  align-items: center;
 }
