@@ -1,0 +1,12 @@
+.bookTitle {
+  width: 142px;
+  height: 18px;
+
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #000000;
+}

@@ -4,6 +4,7 @@ import NavBar from "./Navbar/Navbar";
 import Category from "./Category/Category";
 import Main from "./Main/Main";
 import SimpleSlider from "./Main/Slider";
+import BookView from "./Main/BookView";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Main>
         <Category />
         <SimpleSlider />
+        <BookView />
       </Main>
     </div>
   );
