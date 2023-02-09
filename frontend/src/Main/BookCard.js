@@ -3,13 +3,12 @@ import "./BookCard.css";
 import StarIcon from "../assets/Star.svg";
 import viewIcon from "../assets/view.png";
 import bookCover from "../assets/react_image.jpeg";
+
 const BookCard = () => {
   return (
     <>
       <div className="bookCard">
-        <div className="bookCover">
-          <img src={bookCover} alt="bookCover"></img>
-        </div>
+        <img src={bookCover} alt="bookCover" className="bookCover"></img>
         <div className="bookInfo">
           <div>
             <div className="bookTitle">책제목</div>
@@ -29,7 +28,7 @@ const BookCard = () => {
               </div>
             </div>
 
-            <div className="bookGenre">#장르 #판타지 #로맨지</div>
+            <div className="bookGenre">#장르 #판타지 #로맨스</div>
           </div>
         </div>
       </div>
