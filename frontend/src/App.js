@@ -5,6 +5,7 @@ import Category from "./Category/Category";
 import Main from "./Main/Main";
 import SimpleSlider from "./Main/Slider";
 import BookView from "./Main/BookView";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
   return (

@@ -1,4 +1,6 @@
 import "./Navbar.css";
+import { Routes, Route, Link } from "react-router-dom";
+import MyPage from "../MyPage/MyPage";
 
 const NavBar = (props) => {
   return (
@@ -11,8 +13,12 @@ const NavBar = (props) => {
       <div>
         <button>다크모드</button>
         <button>
-          d<i class="fa-light fa-user"></i>
+          <Link to="/MyPage">마이페이지</Link>
         </button>
+
+        <Routes>
+          <Route path="/MyPage" element={<MyPage />}></Route>
+        </Routes>
       </div>
     </div>
   );
