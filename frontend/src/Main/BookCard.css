@@ -15,19 +15,20 @@
   box-sizing: border-box;
   width: 312px;
   height: 215px;
-  border: 1px solid #000000;
   position: relative;
   display: flex;
   padding: 16px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bookCard:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 5px 4px rgba(0, 0, 0, 0.2);
 }
 
 .bookCover {
   background: #d9d9d9;
   margin-right: 14px;
-}
-
-.bookCover img {
-  background-size: contain;
 }
 
 .bookAuthor {

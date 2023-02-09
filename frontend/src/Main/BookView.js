@@ -8,6 +8,8 @@ const BookView = () => {
       <BookCard />
       <BookCard />
       <BookCard />
+      <BookCard />
+      <BookCard />
     </div>
   );
 };

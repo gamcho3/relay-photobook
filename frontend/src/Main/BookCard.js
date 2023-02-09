@@ -7,9 +7,7 @@ const BookCard = () => {
   return (
     <>
       <div className="bookCard">
-        <div className="bookCover">
-          <img src={bookCover} alt="bookCover"></img>
-        </div>
+        <img src={bookCover} alt="bookCover" className="bookCover"></img>
         <div className="bookInfo">
           <div>
             <div className="bookTitle">책제목</div>

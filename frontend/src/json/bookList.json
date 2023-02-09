@@ -1,0 +1,11 @@
+{
+  "resultCode": 0,
+  "msg": "success",
+  "list": [
+    {
+      "title": "제목",
+      "author": "아무개",
+      "otherAuthorCount": 5
+    }
+  ]
+}
