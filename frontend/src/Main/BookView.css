@@ -1,6 +1,7 @@
 .bookView {
   display: grid;
-  grid-template-rows:repeat(3,);
+  grid-template-rows: repeat(3);
   gap: 15px;
+
   grid-template-columns: repeat(3, 1fr);
 }

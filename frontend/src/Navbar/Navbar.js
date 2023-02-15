@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./Navbar.scss";
 import { Routes, Route, Link } from "react-router-dom";
 import MyPage from "../MyPage/MyPage";
 

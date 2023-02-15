@@ -6,7 +6,7 @@ const Main = (props) => {
 
 const StyledContainer = styled.div`
   background-color: #ffffff;
-  width: 1000px;
+
   margin: auto;
 `;
 

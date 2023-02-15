@@ -14,23 +14,38 @@ const Category = () => {
     newArr[index] = true;
     setState(newArr);
   };
+
   return (
     <CustomCategory>
-      {dummyData["category"].map((value, index) => (
-        <Button
-          key={index}
-          index={index}
-          activeButton={activeButton}
-          state={state[index]}
-        >
-          {value}
-        </Button>
-      ))}
+      <div>
+        {dummyData["category"].map((value, index) => (
+          <Button
+            key={index}
+            index={index}
+            activeButton={activeButton}
+            state={state[index]}
+          >
+            {value}
+          </Button>
+        ))}
+      </div>
+
+      <img
+        src="/Group.png"
+        alt="group"
+        width={15}
+        height={15}
+        style={{ cursor: "pointer" }}
+      />
     </CustomCategory>
   );
 };
 
 const CustomCategory = styled.div`
-  padding: 10px 10px 10px 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 export default Category;
